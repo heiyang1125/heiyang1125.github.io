@@ -5,9 +5,9 @@ baseurl:
 url: https://github.com/heiyang1125
 date_format: "ordinal"
 title: HEIYANG
-subtitle: "Hello My Friends"
-description: "陈阳的Github个人博客"
-keywords: HEIYANG, Yang Chen, heiyang1125, chenyang, HEIYANG
+subtitle: "公众号：闷骚的程序员"
+description: "陈阳的个人博客"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
