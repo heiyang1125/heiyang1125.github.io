@@ -5,6 +5,22 @@ css: ['pages/index.css']
 comments: false
 ---
 
+<style> 
+div.container
+{
+	width:20em;
+	border:1em solid;
+}
+div.box
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	width:50%;
+	border:1em solid;
+	float:left;
+}
+</style>
+
 {% assign assets_base_url = site.url %}
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
@@ -100,12 +116,14 @@ comments: false
             </ol>
         </div>
         <div class="column one-third">
-            <ul>
-             <li style="color:#C0C0C0;float: left;">姓名：陈阳</li>
-             <li style="color:#C0C0C0;float: left;">性别：男</li>
-             <li style="color:#C0C0C0;float: left;">学校：石家庄铁道大学</li>    
-             <li style="color:#C0C0C0;float: left;">专业：软甲工程</li>  
-            </ul>           
+            <div class="container">
+                <ul>
+                    <li class="box" style="color:#C0C0C0;float: left;">姓名：陈阳</li>
+                   <li class="box" style="color:#C0C0C0;float: left;">性别：男</li>
+                   <li class="box" style="color:#C0C0C0;float: left;">学校：石家庄铁道大学</li>    
+                    <li class="box" style="color:#C0C0C0;float: left;">专业：软甲工程</li>  
+               </ul>     
+            </div>
             {% include sidebar-popular-repo.html %}
         </div>
     </div>
