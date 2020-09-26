@@ -2,9 +2,9 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://github.com/heiyang1125
 date_format: "ordinal"
-title: 码志
+title: HEIYANG
 subtitle: "公众号：闷骚的程序员"
 description: "马壮的个人博客，公众号：闷骚的程序员"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
@@ -24,7 +24,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2020-09-23
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -38,12 +38,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: ChenYang
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: heiyang1125
+location: JiangSu, China
+email: 778056614@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -120,17 +120,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: heiyang1125
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: e84f1289e2ce4a09c015
+        client_secret: d377fbfe924f47b7f7384d8f6178f56d2bb1e404
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: heiyang1125
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: e84f1289e2ce4a09c015
+    clientSecret: d377fbfe924f47b7f7384d8f6178f56d2bb1e404
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -143,13 +143,3 @@ simple_jekyll_search:
     # 最多显示多少条搜索结果
     limit: 10
 
-# ---------------- #
-#      Google      #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
-    adsense:
-        footer: true
-        sidebar: true 
-        content_header: true
-        content_footer: false
