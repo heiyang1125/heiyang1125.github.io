@@ -4,8 +4,8 @@
 baseurl:
 url: https://github.com/heiyang1125
 date_format: "ordinal"
-title: HEIYANG
-subtitle: "Hello World"
+
+subtitle: "HEIYANG"
 description: "陈阳的个人博客"
 keywords: HEIYANG, Yang Chen, heiyang1125, chenyang, HEIYANG
 timezone: Asia/Shanghai
