@@ -1,4 +1,4 @@
-## 码志
+## 感谢访问
 
 我的个人博客：<https://www.cnblogs.com/heiyang/>，欢迎浏览。
 
